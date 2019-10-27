@@ -2,7 +2,7 @@
   <!-- Logo -->
   <a href="/admin/index" class="logo">
     <span class="logo-mini"><b>Py</b>bbs</span>
-    <span class="logo-lg"><b>Pybbs</b>后台</span>
+    <span class="logo-lg"><b>lckclub</b>后台</span>
   </a>
   <!-- Header Navbar: style can be found in header.less -->
   <nav class="navbar navbar-static-top">
