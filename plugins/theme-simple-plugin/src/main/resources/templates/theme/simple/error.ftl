@@ -6,7 +6,7 @@
   <#--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Ooooops, 出错了~~</title>
-  <link rel="icon" href="https://yiiu.co/favicon.ico">
+  <link rel="icon" href="http://lckclub.com/images/favicon.ico">
   <#--css-->
   <link rel="stylesheet" href="/static/theme/simple/css/app.css"/>
 </head>

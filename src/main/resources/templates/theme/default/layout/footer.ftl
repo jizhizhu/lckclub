@@ -1,7 +1,7 @@
 <footer class="p-3">
   <div class="container d-none d-md-block">
     <p>
-      lck赛事讨论&nbsp;|&nbsp;
+      LCK赛事讨论&nbsp;|&nbsp;
       <a href="https://github.com/jizhizhu/lckclub" target="_blank">开源地址</a>
     </p>
     <div>
@@ -12,6 +12,6 @@
     </div>
   </div>
   <div class="container text-center d-md-none">
-    powered by <a href="https://github.com/jizhizhu/lckclub" target="_blank">lckclub</a>
+    powered by <a href="https://github.com/jizhizhu/lckclub" target="_blank">LCKClub</a>
   </div>
 </footer>
