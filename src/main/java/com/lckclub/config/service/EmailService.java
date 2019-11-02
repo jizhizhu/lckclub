@@ -46,6 +46,10 @@ public class EmailService implements BaseService<Session> {
     properties.setProperty("mail.host", host);
     //是否进行权限验证。
     properties.setProperty("mail.smtp.auth", "true");
+    //绕开阿里云封禁的25 端口,使用ssl加密并改用465端口
+    properties.setProperty("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
+    properties.setProperty("mail.smtp.socketFactory.port", "465");
+    properties.setProperty("mail.smtp.port", "465");
     //0.2确定权限（账号和密码）
     Authenticator authenticator = new Authenticator() {
       @Override
