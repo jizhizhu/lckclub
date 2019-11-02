@@ -9,15 +9,15 @@
           <form action="" onsubmit="return;" id="form">
             <div class="form-group">
               <label for="username">用户名</label>
-              <input type="text" id="username" name="username" class="form-control" placeholder="用户名"/>
+              <input type="text" id="username" name="username" class="form-control" placeholder="由 2 到 16 位汉字,数字及大小写字母组成"/>
             </div>
             <div class="form-group">
               <label for="password">密码</label>
-              <input type="password" id="password" name="password" class="form-control" placeholder="密码"/>
+              <input type="password" id="password" name="password" class="form-control" placeholder="由 6 到 32 位数字及大小写字母组成"/>
             </div>
             <div class="form-group">
               <label for="email">邮箱</label>
-              <input type="email" id="email" name="email" class="form-control" placeholder="邮箱"/>
+              <input type="email" id="email" name="email" class="form-control" placeholder="邮箱地址"/>
             </div>
             <div class="form-group">
               <label for="captcha">验证码</label>

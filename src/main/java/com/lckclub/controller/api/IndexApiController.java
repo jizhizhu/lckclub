@@ -81,7 +81,8 @@ public class IndexApiController extends BaseApiController {
     ApiAssert.notEmpty(username, "请输入用户名");
     ApiAssert.notEmpty(password, "请输入密码");
     ApiAssert.notEmpty(email, "请输入邮箱");
-    ApiAssert.isTrue(StringUtil.check(username, StringUtil.USERNAMEREGEX), "用户名只能为a-z,A-Z,0-9组合且2-16位");
+    ApiAssert.isTrue(StringUtil.check(username, StringUtil.USERNAMEREGEX), "用户名只能由汉字,数字及大小写字母组成且2-16位");
+    ApiAssert.isTrue(StringUtil.check(password, StringUtil.PASSWORDREGEX), "密码只能由数字及大小写字母组成且6-32位");
     ApiAssert.isTrue(StringUtil.check(email, StringUtil.EMAILREGEX), "请输入正确的邮箱地址");
     User user = userService.selectByUsername(username);
     ApiAssert.isNull(user, "用户名已存在");

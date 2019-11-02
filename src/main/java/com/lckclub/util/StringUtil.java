@@ -23,7 +23,7 @@ public class StringUtil {
   // url正则
   public static final String URLREGEX = "^((https|http)?:\\/\\/)[^\\s]+";
   // 用户名正则
-  public static final String USERNAMEREGEX = "[a-z0-9A-Z]{2,16}";
+  public static final String USERNAMEREGEX = "[\\u4e00-\\u9fa5a-z0-9A-Z]{2,16}";
   // 密码正则
   public static final String PASSWORDREGEX = "[a-z0-9A-Z]{6,32}";
   // 生成随机字符串用到的字符数组
