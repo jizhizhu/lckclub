@@ -1,3 +1,5 @@
+server:
+  port: 52815
 spring:
   banner:
     location: file:./banner.txt
